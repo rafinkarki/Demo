@@ -1,0 +1,119 @@
+.list {
+    background-color: #fff;
+    /*margin: 0px;*/
+    border:1px solid #e3e3e3;
+    width:570px;
+    padding: 10px !important;
+}
+.button-list {
+    padding:0 25px;
+}
+.button-field{
+    width: 200px;
+    cursor: pointer;
+    align-items: flex-start;
+    text-align: center;
+    color: buttontext;
+    padding: 2px 6px 3px;
+    border: 2px outset buttonface;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-color: buttonface;
+    box-sizing: border-box;
+}
+input.input,select {
+    width: 170px;
+}
+a.anchor{
+    text-decoration: none;
+}
+.form-list .textfield-layout,
+.form-list .textarea-layout,
+.form-list .ddfield-layout,
+.form-list .radiobutton-layout,
+.form-list .checkbox-layout
+ {
+    padding: 8px;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    width: 552px;
+}
+.captcha-field
+ {
+    padding: 8px;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    width: 574px;
+}
+.content {
+    border-top: 1px solid;
+    margin-top: 8px;
+}
+.textfield-type {
+    padding-top: 8px;
+}
+textarea.option {
+    margin-top: 5px;
+}
+div.radio-textfield{
+	margin-bottom:5px;
+}
+.captcha_checkbox{
+    margin-bottom: 6px;
+}
+table.captcha tr td {
+    padding-bottom: 0px;
+}
+.content{
+    display:none;
+}
+.content.toggled{
+    display:block;
+}
+table.dynamic tr td {
+    padding: 1px;
+
+}
+table.add-field tr td,table.captcha tr td{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+em{
+    color:red;
+}
+td.label{
+    width:33%;
+    vertical-align:top;
+}
+td.editor-main{
+    width:270px;
+}
+.draggables {
+    background-color: #fff;
+    float:right;
+    border: 1px solid #e3e3e3;
+}
+.button-title{
+    text-align:center;
+    padding-top: 8px;
+}
+.edit-editor{
+    width:50px;
+    height:50px;
+}
+.placeholder {
+    text-align: center;
+}
+.button-field:hover {
+    background-color: #e3e3e3;
+}
+td.editor-item-buttons {
+    vertical-align: top;
+}
+/*sortable list*/
+.list     { margin-top:2px;}
+.list li   {cursor:move; margin-bottom:5px;}
+#message-box        { background:#fffea1; border:2px solid #fc0; padding:4px 8px; margin:0 0 14px 0; width:500px; }

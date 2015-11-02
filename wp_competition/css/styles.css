@@ -1,0 +1,11 @@
+.checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    position: relative;
+    margin-left: 0px;
+ }
+ .checkbox label {
+    padding-left: 0px
+ }
+
+em{
+    color:red;
+}
